@@ -1,12 +1,12 @@
-.separator{
-        height: 481px;
-        width: 1px;
-        opacity: 0.19;
-        background-color: #F5F7FB;
+.separator {
+  height: 481px;
+  width: 1px;
+  opacity: 0.19;
+  background-color: #f5f7fb;
 }
 
 @media screen and (max-width: 900px) {
-        .separator{
-                display: none;
-        }
+  .separator {
+    display: none;
+  }
 }

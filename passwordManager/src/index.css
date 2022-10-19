@@ -1,20 +1,18 @@
-*{
+* {
   margin: 0%;
   box-sizing: border-box;
 }
-#root{
+#root {
   height: 110vh;
   width: auto;
 }
-.app{
+.app {
   height: inherit;
   display: flex;
   justify-content: center;
 }
-body{
-  background-color:#F5F7FB;
+body {
+  background-color: #f5f7fb;
   min-height: 100vh;
   width: auto;
 }
-
-

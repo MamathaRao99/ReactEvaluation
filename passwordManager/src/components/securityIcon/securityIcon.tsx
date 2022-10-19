@@ -1,4 +1,4 @@
-import './securityIcon.css'
+import "./securityIcon.css";
 const Lock = () => {
   return (
     <div className="logoBox">

@@ -87,17 +87,17 @@
   bottom: 0;
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
-  .bottombox{
+  .bottombox {
     height: auto;
   }
-  .btnDiv{
+  .btnDiv {
     margin-top: 5px;
   }
-  .sign-in-text{
+  .sign-in-text {
     position: relative;
     margin-top: 10px;
   }
-  .signInBox{
+  .signInBox {
     margin-left: 110px;
   }
 }

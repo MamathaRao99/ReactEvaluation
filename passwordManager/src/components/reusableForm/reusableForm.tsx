@@ -72,4 +72,4 @@ const ReusableForm = (props: any) => {
   );
 };
 
-export default ReusableForm
+export default ReusableForm;

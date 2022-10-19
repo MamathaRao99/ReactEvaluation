@@ -1,6 +1,5 @@
-import './dashBoard.css'
+import "./dashBoard.css";
 import { useState } from "react";
-
 
 const DashBoard = () => {
   const [modal, setModal] = useState(false);
@@ -134,7 +133,14 @@ const DashBoard = () => {
                         <p className="noteText">Notes</p>
                         <input type="text" className="noteContainer "></input>
                       </div>
-
+                      <div className="buttons">
+                        <button className="btn-background">
+                          <span className="resetText">Reset</span>
+                        </button>
+                        <button className="saveBtn">
+                          <span className="saveText">Save</span>
+                        </button>
+                      </div>
                       <button className="close-modal" onClick={toggleModal}>
                         CLOSE
                       </button>
