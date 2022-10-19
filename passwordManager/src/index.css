@@ -1,0 +1,20 @@
+*{
+  margin: 0%;
+  box-sizing: border-box;
+}
+#root{
+  height: 110vh;
+  width: auto;
+}
+.app{
+  height: inherit;
+  display: flex;
+  justify-content: center;
+}
+body{
+  background-color:#F5F7FB;
+  min-height: 100vh;
+  width: auto;
+}
+
+

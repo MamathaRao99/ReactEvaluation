@@ -1,0 +1,305 @@
+
+
+@media screen and (max-width: 900px){
+    .homePageContainer{
+        margin: 0;
+    }
+}
+
+.homePageContainer{
+    width: 100%;
+    height: 100%;
+    margin: 0 12.2% 0 12.2%;
+}
+.Content{
+    background-color:#FAFAFA;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.leftTab{
+    height: 100vh;
+    width: 118px;
+    background-color: #2892FF;
+    display: flex;
+    flex-direction: column;
+}
+.menuTabDiv, .homeTabDiv{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    margin-bottom: 24px;
+}
+.menuIcon{
+    height: 22px;
+    width: 40px;
+}
+.orangeTab{
+    position: absolute;
+    height: 80px;
+    width: 3px;
+    border-radius: 0 3px 3px 0;
+    background-color:#FFA043;;
+    left: 0;
+}
+.orangeOval{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -8px;
+}
+.content{
+    height: 100%;
+    width: 100%;
+}
+.headerContent{
+    height: 133px;
+    width: 100%;
+    background-color:#F5F7FB;
+    border-bottom: 2px solid #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-left: 7%;
+    padding-top: 2.5%;
+
+}
+.passwordManagerlogo{
+    height: auto;
+    width: 177px;
+}
+.twoIcon{
+    padding: 36px 52px 0 0;
+    position: relative;
+}
+.iconBar{
+    height: 88px;
+    width: auto;
+}
+.titleAndSearch{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    padding: 0 9% 0 7%;
+}
+.titleLeftSide{
+    height: 100%;
+    width: auto;
+}
+.sitesHeading{
+    margin-top: 38px;
+}
+.orangeUnderline{
+    height: 4px;
+    width: 36px;
+    border-radius: 2px;
+    background-color:#FFA043;
+}
+.sitesP{
+    height: 41px;
+    width: 69px;
+    color: #3C4857;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 41px;
+}
+.subHead{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 37px;
+}
+.subHeadTitle{
+    height: 33px;
+    width: 141px;
+    color: #3C4857;
+    font-family: "Open Sans";
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 33px;
+    margin-right: 6px;
+}
+.counter{
+    box-sizing: border-box;
+    height: 37px;
+    width: 37px;
+    border: 1px solid #FFFFFF;
+    background-color: #0E85FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-right: 13px;
+
+}
+.titleRightSide{
+    display: flex;
+    margin-left: 53%;
+}
+.searchBar{
+    height: auto;
+    width: auto;
+    position: relative;
+    display: flex;
+}
+.searchBarInput{
+    height: 32px;
+    width: 245px;
+    margin-top: 46px;
+    background-color: transparent;
+    color: #A5A5A5;
+    font-family: "Open Sans";
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+    border: none;
+    border-bottom: 1px solid #0E85FF;
+    outline: none;
+    padding-bottom: 8px;
+}
+.searchIcon{
+    position: absolute;
+    right: 0;
+    top:45px;
+    height: 24px;
+    width: 24px;
+}
+.addIcon{
+    height: 48px;
+    width: 48px;
+    margin-left: 38px;
+    margin-top: 35px;
+}
+.addSite{
+    height: 215px;
+    width: 819px;
+    border-radius: 107.5px;
+    background-color: #F5F7FB;
+    margin: 112px 0 0 251px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addSite p{
+    height: 72px;
+    width: 367px;
+    color: #3C4857;
+    font-family: "Open Sans";
+    font-size: 26px;
+    letter-spacing: 0;
+    line-height: 36px;
+    text-align: center;
+}
+.sitesGrid{
+    width: 100%;
+    height: auto;
+    margin-top: 42px;
+    padding-left: 90px;
+    padding-right: 100px;
+}
+.siteContainer{
+    height: 115px;
+    width: 363px;
+    border-radius: 14px;
+    background-color: white;
+    box-shadow: 0 8px 18px 10px rgba(0,0,0,0.02);
+}
+.gridFlex{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Modal */
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 69.420vw;
+    height: 100vh;
+    top: 14%;
+    right: 12.3%;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+.add-site {
+  height: 41px;
+  width: 119px;
+  color: #3C4857;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 41px;
+}
+.urlBox {
+  height: 70px;
+  width: 700px;
+}
+.url {
+  height: 24px;
+  width: 34px;
+  color: #949CA5;
+  font-family: "Open Sans";
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.urlInput{
+  box-sizing: border-box;
+  height: 36px;
+  width: 701px;
+  border: 1px solid #F5F7FB;
+  border-radius: 4px;
+  background-color: #F5F7FB;
+}
+.siteNameBox{
+  height: 70px;
+  width: 340px;
+}
