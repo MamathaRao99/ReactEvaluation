@@ -109,11 +109,32 @@ const DashBoard = () => {
                         <p className="url">URL</p>
                         <input type="text" className="urlInput" />
                       </div>
-                      <div className='siteSectorBox'>
+                      <div className="siteSectorBox">
                         <div className="siteNameBox">
-
+                          <p className="siteNameText">Site Name</p>
+                          <input type="text" className="siteNameContainer" />
+                        </div>
+                        <div className="siteNameBox">
+                          <p className="siteNameText">Sector/Folder</p>
+                          <input type="text" className="siteNameContainer" />
                         </div>
                       </div>
+                      <div className="UserSiteBox">
+                        <div className="siteNameBox">
+                          <p className="siteNameText">User Name</p>
+                          <input type="text" className="siteNameContainer" />
+                        </div>
+                        <div className="siteNameBox">
+                          <p className="siteNameText">Site Password</p>
+                          <input type="text" className="siteNameContainer" />
+                        </div>
+                      </div>
+
+                      <div className="noteBox">
+                        <p className="noteText">Notes</p>
+                        <input type="text" className="noteContainer "></input>
+                      </div>
+
                       <button className="close-modal" onClick={toggleModal}>
                         CLOSE
                       </button>

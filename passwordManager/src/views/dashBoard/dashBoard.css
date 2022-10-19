@@ -258,8 +258,10 @@ body.active-modal {
     background: #f1f1f1;
     padding: 14px 28px;
     border-radius: 3px;
-    max-width: 600px;
-    min-width: 300px;
+    /* max-width: 600px;
+    min-width: 300px; */
+      height: 598px;
+  width: 768px;
 }
 
 .close-modal {
@@ -302,4 +304,48 @@ body.active-modal {
 .siteNameBox{
   height: 70px;
   width: 340px;
+}
+.siteNameText{
+  height: 24px;
+  width: 86px;
+  color: #949CA5;
+  font-family: "Open Sans";
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.siteNameContainer {
+  box-sizing: border-box;
+  height: 36px;
+  width: 341px;
+  border: 1px solid #F5F7FB;
+  border-radius: 4px;
+  background-color: #F5F7FB;
+}
+.siteSectorBox{
+    display: flex;
+}
+.UserSiteBox{
+    display: flex;
+}
+.noteBox{
+  height: 95px;
+  width: 700px;
+}
+.noteText{
+  height: 24px;
+  width: 50px;
+  color: #949CA5;
+  font-family: "Open Sans";
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.noteContainer {
+  box-sizing: border-box;
+  height: 61px;
+  width: 701px;
+  border: 1px solid #F5F7FB;
+  border-radius: 4px;
+  background-color: #F5F7FB;
 }
