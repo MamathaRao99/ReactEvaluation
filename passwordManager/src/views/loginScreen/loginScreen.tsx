@@ -2,7 +2,7 @@ import "../loginScreen/loginScreen.css";
 import "../../index.css";
 import "./loginScreen.css";
 import ReusableForm from "../../components/reusableForm/reusableForm";
-import Lock from "../../components/lock/Lock";
+import Lock from "../../components/securityIcon/securityIcon";
 import Separator from "../../components/separator/separator";
 
 const LoginScreen = () => {
@@ -10,7 +10,7 @@ const LoginScreen = () => {
     <div className="loginContainer">
       <div className="loginBox">
         <Lock />
-        <Separator/>
+        <Separator />
         <ReusableForm />
       </div>
     </div>

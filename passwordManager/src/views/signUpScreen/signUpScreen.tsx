@@ -1,4 +1,4 @@
-import Lock from "../../components/lock/Lock";
+import Lock from "../../components/securityIcon/securityIcon";
 import "../loginScreen/loginScreen.css";
 import "../../index.css";
 import ReusableForm from "../../components/reusableForm/reusableForm";
@@ -10,7 +10,7 @@ const SignUpScreen = () => {
     <div className="signUpContainer">
       <div className="loginBox">
         <Lock />
-        <Separator/>
+        <Separator />
         <ReusableForm type="signUp" />
       </div>
     </div>
